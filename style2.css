@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(153, 85, 85);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@ body{
 .head{
     height: 150px;
     width:100px;
-    color:rgb(24, 24, 211);
+    color:rgb(16, 16, 148);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -18,12 +18,20 @@ body{
     align-items: baseline;
 }
 button{
-    background-color: rgb(82, 70, 70);
+    background-color: rgb(138, 125, 125);
     width: 75px;
     height:50px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     border-radius:25px;
     border: none; 
     margin-right: 15px;
     
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
